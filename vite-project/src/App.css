@@ -1,0 +1,23 @@
+
+.shadowRight{
+    position: relative;
+    overflow: hidden;
+}
+.shadowRight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 100%;
+    background: linear-gradient(#FFA229, #1C4670);
+    /* z-index: 100; */
+}
+.textcolor{
+    background: linear-gradient(120deg, #FFA229, #1C4670 60px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.backgroundclr{
+    background: linear-gradient(120deg, #FFA229, #1C4670 65%);
+}
